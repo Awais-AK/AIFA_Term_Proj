@@ -1,7 +1,5 @@
 # AIFA
 
-![image](https://user-images.githubusercontent.com/52428908/111369680-5cdf2180-86bd-11eb-9d33-0f51f32ee6ab.png)
-
 ### Download
 
 * Download the repository
@@ -22,16 +20,16 @@ then a randomly generated example will be written to `gen_testcase.txt`, not tha
 ### Run the algorithm of the generated test case
 
 ```
-python ctr.py
-python ctmr.py
+python run_without_interrupts.py
+python run_with_interrupts.py
 ```
 
-Note: `ctr.py` & `ctmr.py` assumes that the input in `gen_testcase.txt` has a solution 
+Note: `run_without_interrupts.py` & `run_with_interrupts.py` assumes that the input in `gen_testcase.txt` has a solution 
 
 ### Example
 
 ```
-C:\Users\harshal d\Desktop\AIFA\src>python generator.py
+C:\Users\HP\OneDrive\Desktop\AIFA\Project\Code\AIFA>python generator.py
 Graph Completed
 Source destination and params completed
 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 4999.17it/s]
@@ -39,10 +37,8 @@ Max weight Completed
 ```
 
 ```
-C:\Users\harshal d\Desktop\AIFA\src>python ctr.py       
-Lower bound is:  32.4756941358828 
-
-output of algoritm is:  32.4756941358828
+C:\Users\HP\OneDrive\Desktop\AIFA\Project\Code\AIFA>python run_without_interrupts.py    
+Output of algoritm is:  32.4756941358828
 
 Paths that are followed are:
 
