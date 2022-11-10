@@ -1,0 +1,15 @@
+Output of algoritm is:  17.754687462955733
+
+Paths that are followed are:
+
+for EV 0 : [(5.07199960797471, 'reached without charging at destination on path [18, 21, 1, 5, 20]')]
+for EV 1 : [(0, 'started charging at 4'), (1.5635404419167953, 'completed charging at 4'), (2.416044377161464, 'reached 20'), (8.277633427495555, 'reached destination on path [20, 5, 16, 10]')]
+for EV 2 : [(4.938136103133232, 'reached without charging at destination on path [1, 5, 8]')]
+for EV 3 : [(0, 'started charging at 24'), (0.472817231978787, 'completed charging at 24'), (1.8539538360848238, 'reached 0'), (5.39007478306265, 'reached destination on path [0, 11, 2]')]
+for EV 4 : [(8.974291128957486, 'reached without charging at destination on path [1, 22, 0, 11]')]
+for EV 5 : [(0, 'started charging at 13'), (0.8337652543055621, 'completed charging at 13'), (5.985577078915764, 'reached 9'), (8.043441776299307, 'reached destination on path [9, 19, 24]')]
+for EV 6 : [(3.558536427389106, 'reached without charging at destination on path [22, 6, 9, 18]')]
+for EV 7 : [(6.756498411613133, 'reached without charging at destination on path [17, 25, 21, 18]')]
+for EV 8 : [(0, 'started charging at 12'), (1.5566279952088768, 'completed charging at 12'), (7.781120075334687, 'reached 20'), (13.994832559121987, 'reached destination on path [20, 17, 15]')]
+for EV 9 : [(2.0725437391592183, 'reached without charging at destination on path [11, 0, 22]')]
+for EV 10 : [(17.754687462955733, 'reached without charging at destination on path [10, 19, 7]')]
